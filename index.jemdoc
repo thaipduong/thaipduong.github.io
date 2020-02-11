@@ -12,7 +12,7 @@ University of California, San Diego					\n
 ~~~
 
 == Biography
-I am a second-year Ph.D. student in [http://erl.ucsd.edu/ Existential Robotics Laboratory], [http://www.ece.ucsd.edu/ ECE Department] and [https://contextualrobotics.ucsd.edu/ CRI], [http://www.ucsd.edu/ UC San Diego]. \n
+I am a second-year Ph.D. student in [https://existentialrobotics.org/ Existential Robotics Laboratory], [http://www.ece.ucsd.edu/ ECE Department] and [https://contextualrobotics.ucsd.edu/ CRI], [http://www.ucsd.edu/ UC San Diego]. \n
 My advisor is [https://natanaso.github.io/ Prof. Nikolay Atanasov].\n
 I received my M.S. degree from Oregon State University, Corvallis, OR and B.S. degree from Hanoi University of Science and Technology, Hanoi, Vietnam.
 
@@ -22,14 +22,18 @@ I received my M.S. degree from Oregon State University, Corvallis, OR and B.S. d
 - Robotics
 -- Environment Perception and Representation
 -- Simultaneous Localization and Mapping(SLAM)
--- Planning and Control
-- Machine Learning
+-- Exploration, Planning and Control
+- Artificial Intelligence
+- Decision Making under Uncertainty
 
 
 == News
 - *Jan 2020* ~~~ Our paper on [https://thaipduong.github.io/kernelbasedmap/ Sparse Kernel-based Mapping] is accepted to [https://www.icra2020.org/ ICRA 2020] in Paris, France.
-- *Sep 2018* ~~~ I started my Ph.D. journey at [http://www.ece.ucsd.edu/ ECE department], [https://ucsd.edu/ UC San Diego].
+- *Jan 2020* ~~~ I TAed [https://natanaso.github.io/ece276a/ ECE276A: Sensing & Estimation in Robotics]
+- *Apr 2019* ~~~ I presented our work at [http://jacobsschool.ucsd.edu/research-expo/abstract.sfe?poster_number=159 UCSD Research Expo 2019].
+- *Sep 2018* ~~~ I received Jacobs Fellowship from [http://www.ece.ucsd.edu/ ECE Department], [https://ucsd.edu/ UC San Diego].
+- *Sep 2018* ~~~ I started my Ph.D. journey at [http://www.ece.ucsd.edu/ ECE Department], [https://ucsd.edu/ UC San Diego].
 
 == Contact
-Office: 6400 Atkinson Hall, 9500 Gilman Dr, La Jolla, CA 92093 \n
+Office: 6400A Atkinson Hall, 9500 Gilman Dr, La Jolla, CA 92093 \n
 E-mail: tduong@eng.ucsd.edu\n

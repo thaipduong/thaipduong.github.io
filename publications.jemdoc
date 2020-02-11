@@ -1,0 +1,10 @@
+# jemdoc: menu{MENU}{publications.html} ,notime
+==Thai Duong
+
+
+== Conference Proceedings
+. *Autonomous Navigation in Unknown Environments using Sparse Kernel-based Occupancy Mapping* \n
+Thai Duong, Nikhil Das, Michael Yip, Nikolay Atanasov \n
+International Conference on Robotics and Automation (ICRA), Paris, France, 2020.
+\[[https://arxiv.org/pdf/2002.01921.pdf pdf]\] \[[https://arxiv.org/abs/2002.01921 link]\] \[[https://thaipduong.github.io/kernelbasedmap/ website]\]
+

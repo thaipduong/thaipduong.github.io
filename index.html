@@ -127,7 +127,7 @@
             </td>
             <td style="padding:20px;width:80%;vertical-align:middle">
               <a href="https://thaipduong.github.io/hamadapt/">
-                  <papertitle>Learning Adaptive Control for SE(3) Hamiltonian Dynamics</papertitle>
+                  <papertitle>Adaptive Control of SE(3) Hamiltonian Dynamics with Learned Disturbance Features</papertitle>
               </a>
               <br>
               <strong>Thai Duong</strong>,
@@ -139,7 +139,7 @@
               <a href="https://thaipduong.github.io/hamadapt/">video</a> /
               <a href="https://arxiv.org/pdf/2109.09974.pdf">arXiv</a>
               <p></p>
-              <p>This paper develops adaptive geometric control for rigid-body systems, such as ground, aerial, and underwater vehicles, that satisfy Hamilton's equations of motion over the SE(3) manifold. Our design consists of an offline system identification stage, followed by an online adaptive control stage. In the first stage, we learn a Hamiltonian model of the system dynamics using a neural ordinary differential equation (ODE) network trained from state-control trajectory data with different disturbance realizations. The disturbances are modeled as a linear combination of nonlinear descriptors. In the second stage, we design a trajectory tracking controller with disturbance compensation from an energy-based perspective. An adaptive control law is employed to adjust the disturbance model online proportional to the geometric tracking errors on the SE(3) manifold.</p>
+              <p>This paper develops geometric adaptive control with a learned disturbance model for rigid-body systems, such as ground, aerial, and underwater vehicles, that satisfy Hamilton's equations of motion over the SE(3) manifold. Our design consists of an offline disturbance model identification stage, using a Hamiltonian-based neural ordinary differential equation (ODE) network trained from state-control trajectory data, and an online adaptive control stage, estimating and compensating the disturbances based on geometric tracking errors. We demonstrate our adaptive geometric controller in trajectory tracking simulations of fully-actuated pendulum and under-actuated quadrotor systems.</p>
             </td>
           </tr>
 
@@ -291,7 +291,7 @@
           </tr>
           
         </tbody></table>
-
+<br><br><br><br><br><br><br>
        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
                 <td style="padding:10px;width:100%;vertical-align:middle">
@@ -373,7 +373,7 @@
             </td>
           </tr>
         
-                    <tr onmouseout="nerv_stop()" onmouseover="nerv_start()">
+<!--                    <tr onmouseout="nerv_stop()" onmouseover="nerv_start()">
            <td style="padding:20px;width:30%;vertical-align:top">
                <img src='images/old_projs/VMPlacementTree.jpg' width="220">
                <img src='images/old_projs/VMPlacement2.jpg' width="220">
@@ -394,7 +394,7 @@
               <p></p>
               <p> This paper formalizes an optimization framework and develops corresponding algorithmic solutions using Markov Decision Process and Q-Learning for virtual machine/service placement and migration for distributed computing in time-varying environments. Importantly, the knowledge of the underlying topologies of the computing infrastructure, the interaction patterns between the virtual machines, and the dynamics of the supported applications will be formally characterized and incorporated into the proposed algorithms.</p>
             </td>
-          </tr>
+          </tr>-->
       
         </tbody></table>
 

@@ -135,7 +135,7 @@ onload= function(){
             </ul>
 -->
                 <ul id="dataList">
-              <li>[Jan 2024] Our paper on <a href="https://arxiv.org/pdf/2401.00212.pdf"> Physics-Informed Multi-agent Reinforcement Learning</a> has been submitted to <a href="https://www.ieee-ras.org/publications/t-ro"> T-RO.</a> </li>
+              <li>[Jan 2024] Our paper on <a href="https://eduardosebastianrodriguez.github.io/phMARL/"> Physics-Informed Multi-agent Reinforcement Learning</a> has been submitted to <a href="https://www.ieee-ras.org/publications/t-ro"> T-RO.</a> </li>
               <li>[Sep 2023] Our paper on <a href="https://eduardosebastianrodriguez.github.io/LIGMRS/"> Learning Graph Topology</a> has been accepted to <a href="https://sites.bu.edu/mrs2023/"> MRS'23.</a> </li>
               <li>[Sep 2023] Our papers on <a href="https://arxiv.org/abs/2309.09182"> Optimal Planning with Large Language Model Guidance</a> and <a href="https://arxiv.org/abs/2309.09163"> Learning Dynamics from Sensor Observations</a> have been submitted to <a href="https://2024.ieee-icra.org/"> ICRA'24</a>.</li>
               <li>[Mar 2023] Our paper on <a href="https://thaipduong.github.io/LieFVIN/">Lie Group Forced Variational Integrator Networks </a> with  <a href="https://sites.google.com/view/valduruisseaux/home">Valentin Duruisseaux</a> has been accepted to <a href="https://l4dc.seas.upenn.edu/"> L4DC'23.</a> </li>
@@ -212,7 +212,7 @@ onload= function(){
             </td>
             <td style="padding:20px;width:80%;vertical-align:middle">
               <a href="https://thaipduong.github.io/SE3HamDL/">
-                  <papertitle>Hamiltonian-based Neural ODE Networks on Lie Groups For Robot Dynamics Learning and Control</papertitle>
+                  <papertitle>Port-Hamiltonian Neural ODE Networks on Lie Groups For Robot Dynamics Learning and Control</papertitle>
               </a>
               <br>
               <strong>Thai Duong</strong>, Abdullah Altawaitan, Jason Stanley,
@@ -222,15 +222,17 @@ onload= function(){
                   <br>
                               <a href="https://thaipduong.github.io/LieGroupHamDL/">website</a> /
               <a href="https://thaipduong.github.io/LieGroupHamDL/">video</a> /
-              <a href="https://arxiv.org/abs/2106.12782">arXiv</a>
+              <a href="https://arxiv.org/abs/2106.12782">arXiv</a> /
+                <a href="https://github.com/thaipduong/LieGroupHamDL">code</a>
               <br>
                  <em>Conference version accepted to Robotics: Science and Systems (RSS)</em>, 2021.
               <br>
               <a href="https://thaipduong.github.io/SE3HamDL/">website</a> /
               <a href="https://thaipduong.github.io/SE3HamDL/">video</a> /
-              <a href="https://arxiv.org/abs/2106.12782">arXiv</a>
+              <a href="https://arxiv.org/abs/2106.12782">arXiv</a> /
+                <a href="https://github.com/thaipduong/SE3HamDL">code</a>
               <p></p>
-              <p>The dynamics of many robots, including ground, aerial, and underwater vehicles, are described in terms of their SE(3) pose and generalized velocity, and satisfy conservation of energy principles. This paper proposes a Hamiltonian formulation over the SE(3) manifold of the structure of a neural ordinary differential equation (ODE) network to approximate the dynamics of a rigid body. In contrast to a black-box ODE network, our formulation guarantees total energy conservation by construction. We develop energy shaping and damping injection control for the learned, potentially underactuated SE(3) Hamiltonian dynamics to enable a unified approach for stabiliziation and trajectory tracking with various platforms, including pendulum, rigid-body, and quadrotor systems.</p>
+              <p>The dynamics of many robots are described in terms of their generalized coordinates on a matrix Lie group, e.g. on SE(3) for ground, aerial, and underwater vehicles, and generalized velocity, and satisfy conservation of energy principles. This paper proposes a (port-)Hamiltonian formulation over a Lie group of the structure of a neural ordinary differential equation (ODE) network to approximate the robot dynamics. In contrast to a black-box ODE network, our formulation guarantees energy conservation principle and Lie group's  constraints by construction and explicitly accounts for energy-dissipation effect such as friction and drag forces in the dynamics model. We develop energy shaping and damping injection control for the learned, potentially under-actuated Hamiltonian dynamics to enable a unified approach for stabilization and trajectory tracking with various robot platforms.</p>
               <video  width="180" muted autoplay loop>
                 <source src="images/se3hamdl/mp4/data_collection_fast1_small.mp4" type="video/mp4">
                 Your browser does not support the video tag.
@@ -270,6 +272,9 @@ onload= function(){
                             <br>   <br>
               <em>Submitted to ICRA</em>, 2024.
               <br>
+                              <a href="https://altwaitan.github.io/DLFO/">website</a> /
+              <a href="https://arxiv.org/pdf/2309.09163.pdf">arXiv</a> /
+                 <a href="https://github.com/ExistentialRobotics/Differential-Drive-Hamiltonian-NeuralODE/tree/master">code</a>
               <p>This paper develops an approach for learning robot dynamics directly from point-cloud observations, removing the need and associated errors of state estimation, while embedding Hamiltonian structure in the dynamics model to improve data efficiency. We design an observation-space loss that relates motion prediction from the dynamics model with motion prediction from point-cloud registration to train a Hamiltonian neural ordinary differential equation. We demonstrate dynamics learning and tracking control on a real nonholonomic wheeled robot</p>
             </td>
           </tr>
@@ -280,28 +285,47 @@ onload= function(){
           
                 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
              <td style="padding:20px;width:30%;vertical-align:top">
-              <img src='images/lemurs/FixedSwapping.png' style="float: right; margin-right: 15px;" width="215">
+              <img src='images/phMARL/sampling_7_0_LEMURS.gif' style="float: right; margin-right: 15px;" width="215">
+                 <img src='images/phMARL/adversarial_vmas_12_1_LEMURS.gif' style="float: right; margin-right: 15px;" width="155">
+<!--
                                <video  width="200" muted autoplay loop>
                 <source src="images/lemurs/FixedSwappingLearned.mp4" type="video/mp4">
+
                 Your browser does not support the video tag.
                 </video>
+-->
             </td>
                
             <td style="padding:20px;width:80%;vertical-align:middle">
+              <a href="https://eduardosebastianrodriguez.github.io/phMARL/">
+                  <papertitle>Physics-Informed Multi-Agent Reinforcement Learning for Distributed Multi-Robot Problems</papertitle>
+              </a>
+              <br>
+              <a href="https://eduardosebastianrodriguez.github.io/">Eduardo Sebastian</a>, <strong>Thai Duong</strong>,
+              <a href="https://natanaso.github.io/">Nikolay Atanasov</a>, <a href="https://sites.google.com/unizar.es/eduardo-montijano"> Eduardo Montijano </a>, <a href="https://webdiis.unizar.es/~csagues/english/Home_english.html"> Carlos Sagues </a>
+                          <br>
+              <em>Journal version, submitted to <a href="https://www.ieee-ras.org/publications/t-ro"> T-RO. </a>.</em><br> 
+              <a href="https://eduardosebastianrodriguez.github.io/phMARL/">website</a> /
+              <a href="https://arxiv.org/pdf/2401.00212.pdf">arXiv</a> /
+                 <a href="https://github.com/EduardoSebastianRodriguez/phMARL">code</a>
+               <p>We propose a physics-informed reinforcement learning approach able to learn distributed multi-robot control policies that are both scalable and make use of all the available information to each robot. It imposes a port-Hamiltonian structure on the control policy, capturing the networked nature of robot team interactions and  uses self-attention to handle time-varying information at each robot from the interaction graph. We present a soft actor-critic reinforcement learning algorithm to train our self-attention port-Hamiltonian control policy.</p>
+              
+                
+                
               <a href="https://eduardosebastianrodriguez.github.io/LEMURS/">
                   <papertitle>LEMURS: Learning Distributed Multi-Robot Interactions</papertitle>
               </a>
               <br>
               <a href="https://eduardosebastianrodriguez.github.io/">Eduardo Sebastian</a>, <strong>Thai Duong</strong>,
               <a href="https://natanaso.github.io/">Nikolay Atanasov</a>, <a href="https://sites.google.com/unizar.es/eduardo-montijano"> Eduardo Montijano </a>, <a href="https://webdiis.unizar.es/~csagues/english/Home_english.html"> Carlos Sagues </a>
-            
-              <br>
+           <br>
               <em>Accepted to <a href="https://www.icra2023.org/"> ICRA'23. </a>.</em><br> 
               <a href="https://eduardosebastianrodriguez.github.io/LEMURS/">website</a> /
-              <a href="https://arxiv.org/pdf/2209.09702.pdf">arXiv</a>
+              <a href="https://arxiv.org/pdf/2209.09702.pdf">arXiv</a> /
+                 <a href="https://github.com/EduardoSebastianRodriguez/LEMURS">code</a>
               <p></p>
-              <p>We develop LEMURS, an algorithm for learning scalable multi-robot control policies from cooperative task demonstrations. We propose a port-Hamiltonian description of the multi-robot system to exploit universal physical constraints in interconnected systems and achieve closed-loop stability. We represent a multi-robot control policy using an architecture that combines self-attention mechanisms and neural ordinary differential equations. The former handles time-varying communication in the robot team, while the latter respects the continuous-time robot dynamics. Our representation is distributed by construction, enabling the learned control policies to be deployed in robot teams of different sizes. </p>
-              <p><left>Figures: Learn distributed control policy for swapping with 4 robots (top) and deploy with 64 robots (bottom)</left></p>
+              <p>We propose a port-Hamiltonian description of the multi-robot system to exploit universal physical constraints in interconnected systems and achieve closed-loop stability. We represent a multi-robot control policy using an architecture that combines self-attention mechanisms and neural ordinary differential equations. The former handles time-varying communication in the robot team, while the latter respects the continuous-time robot dynamics. Our representation is distributed by construction, enabling the learned control policies to be deployed in robot teams of different sizes. </p>
+              <!--<p><left>Figures: Learn distributed control policy for swapping with 4 robots (top) and deploy with 64 robots (bottom)</left></p>-->
             </td>
           </tr>
 
@@ -361,10 +385,11 @@ onload= function(){
               <br>
               Zhirui Dai, Arash Asgharivaskasi, <strong>Thai Duong</strong>, Shusen Lin, Maria-Elizabeth Tzes, George Pappas, 
                               <a href="https://natanaso.github.io/">Nikolay Atanasov</a>
-                            <br>   <br>
+                            <br>
               <em>Submitted to ICRA</em>, 2024.
               <br>
-              <p>This work aims to leverage these new capabilities with an efficient task planning algorithm for hierarchical metric-semantic models. We consider a scene graph representation of the environment and utilize a large language model (LLM) to convert a natural language task into a linear temporal logic (LTL) automaton. Our main contribution is to enable optimal hierarchical LTL planning with LLM guidance over scene graphs. To achieve efficiency, we construct a hierarchical planning domain that captures the attributes and connectivity of the scene graph and the task automaton, and provide semantic guidance via an LLM heuristic function. To guarantee optimality, we design an LTL heuristic function that is provably consistent and supplements the potentially inadmissible LLM guidance in multi-heuristic planning.</p>
+                <a href="https://arxiv.org/abs/2309.09182">arXiv</a>
+                <p>This work aims to leverage these new capabilities with an efficient task planning algorithm for hierarchical metric-semantic models. We consider a scene graph representation of the environment and utilize a large language model (LLM) to convert a natural language task into a linear temporal logic (LTL) automaton. Our main contribution is to enable optimal hierarchical LTL planning with LLM guidance over scene graphs. To achieve efficiency, we construct a hierarchical planning domain that captures the attributes and connectivity of the scene graph and the task automaton, and provide semantic guidance via an LLM heuristic function. To guarantee optimality, we design an LTL heuristic function that is provably consistent and supplements the potentially inadmissible LLM guidance in multi-heuristic planning.</p>
             </td>
           </tr>
 
@@ -398,7 +423,8 @@ onload= function(){
               <br>
               <a href="https://thaipduong.github.io/sbkm/">website</a> /
               <a href="https://youtu.be/rJ5N3jJlrGE">video</a> /
-              <a href="https://arxiv.org/abs/2009.07207">arXiv</a>
+              <a href="https://arxiv.org/abs/2009.07207">arXiv</a> /
+                <a href="https://github.com/thaipduong/sbkm">code</a>
               <p></p>
               <p>This paper focuses on online occupancy mapping and real-time collision checking onboard an autonomous robot navigating in a large unknown environment. We develop a probabilistic formulation based on Relevance Vector Machines, allowing probabilistic occupancy classification and supporting autonomous navigation. We provide an online training algorithm, updating the sparse Bayesian map incrementally from streaming range data, and an efficient collision-checking method for general curves, representing potential robot trajectories.</p>
             <img src='images/sbkm/demo.gif' width="550">
@@ -430,7 +456,8 @@ onload= function(){
               <br>
               <a href="https://thaipduong.github.io/kernelbasedmap/">website</a> /
               <a href="https://youtu.be/FY_qDmXIaQE">video</a> /
-              <a href="https://arxiv.org/abs/2002.01921">arXiv</a>
+              <a href="https://arxiv.org/abs/2002.01921">arXiv</a> /
+                <a href="https://github.com/thaipduong/kernelbasedmap">code</a>
               <p></p>
               <p>We propose a new map representation, in which occupied and free space are separated by the decision boundary of a kernel perceptron classifier. We develop an online training algorithm that maintains a very sparse set of support vectors to represent obstacle boundaries in configuration space. We also derive conditions that allow complete (without sampling) collision-checking for piecewise-linear and piecewise-polynomial robot trajectories.</p>
             </td>
@@ -465,7 +492,7 @@ onload= function(){
               <a href="https://arxiv.org/pdf/2112.04639.pdf">arXiv (L4DC)</a> /
               <a href="https://arxiv.org/pdf/2207.10840.pdf">arXiv (OJ-CSYS)</a>
               <p></p>
-              <p>This paper proposes techniques to learn the dynamics models of a mobile robot from trajectory data and synthesize a tracking controller with safety and stability guarantees. Instead of a hand-derived dynamics model, we use a dataset of state-control trajectories to train a translation-equivariant nonlinear Hamiltonian model represented as a neural ordinary differential equation (ODE) network. The learned Hamiltonian model is used to synthesize an energy-shaping passivity-based controller and derive conditions which guarantee safe regulation to a desired reference pose. Finally, we enable adaptive tracking of a desired path, subject to safety constraints obtained from obstacle distance measurements. Our safe adaptive controller is demonstrated on a simulated hexarotor robot navigating in unknown complex environments.</p>
+              <p>This paper proposes techniques to learn the dynamics models of a mobile robot from trajectory data and synthesize a tracking controller with safety and stability guarantees. We use a dataset of state-control trajectories to train a translation-equivariant nonlinear Hamiltonian model represented as a neural ordinary differential equation (ODE) network. The learned Hamiltonian model is used to synthesize an energy-shaping passivity-based controller and derive conditions which guarantee safe regulation to a desired reference pose. Finally, we enable adaptive tracking of a desired path, subject to safety constraints obtained from obstacle distance measurements.</p>
             </td>
           </tr>
 
